@@ -1,0 +1,18 @@
+﻿<Project Sdk="Microsoft.NET.Sdk.Web">
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp3.1</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="MassTransit.AspNetCore" Version="7.0.3" />
+    <PackageReference Include="MassTransit.RabbitMQ" Version="7.0.3" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\RequestResponseMassTransit.ConsoleProcessRequest\RequestResponseMassTransit.ConsoleProcessRequest.csproj" />
+    <ProjectReference Include="..\RequestResponseMassTransit.Contracts\RequestResponseMassTransit.Contracts.csproj" />
+  </ItemGroup>
+
+
+</Project>
